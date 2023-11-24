@@ -1,0 +1,146 @@
+[debug] [2023-10-15T20:41:53.592Z] ----------------------------------------------------------------------
+[debug] [2023-10-15T20:41:53.595Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-15T20:41:53.595Z] CLI Version:   12.7.0
+[debug] [2023-10-15T20:41:53.595Z] Platform:      win32
+[debug] [2023-10-15T20:41:53.595Z] Node Version:  v18.18.0
+[debug] [2023-10-15T20:41:53.597Z] Time:          Sun Oct 15 2023 23:41:53 GMT+0300 (East Africa Time)
+[debug] [2023-10-15T20:41:53.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-15T20:41:53.676Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-15T20:41:53.677Z] > authorizing via signed-in user (mburu1085@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bane-did-it\Desktop\project\food-delivery-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-15T20:43:02.492Z] Using project from CLI flag: food-delivery-37c59
+[debug] [2023-10-15T20:43:02.494Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 [none]
+[debug] [2023-10-15T20:43:03.691Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 403
+[debug] [2023-10-15T20:43:03.692Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-15T20:43:03.692Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-15T20:43:04.576Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project food-delivery-37c59. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-15T20:44:47.903Z] ----------------------------------------------------------------------
+[debug] [2023-10-15T20:44:47.905Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-15T20:44:47.905Z] CLI Version:   12.7.0
+[debug] [2023-10-15T20:44:47.905Z] Platform:      win32
+[debug] [2023-10-15T20:44:47.906Z] Node Version:  v18.18.0
+[debug] [2023-10-15T20:44:47.907Z] Time:          Sun Oct 15 2023 23:44:47 GMT+0300 (East Africa Time)
+[debug] [2023-10-15T20:44:47.907Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-15T20:44:47.981Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-15T20:44:47.982Z] > authorizing via signed-in user (mburu1085@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bane-did-it\Desktop\project\food-delivery-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-15T20:45:31.610Z] Using project from CLI flag: food-delivery-37c59
+[debug] [2023-10-15T20:45:31.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 [none]
+[debug] [2023-10-15T20:45:32.684Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 403
+[debug] [2023-10-15T20:45:32.684Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-15T20:45:32.684Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-15T20:45:33.519Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project food-delivery-37c59. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-15T20:47:01.514Z] ----------------------------------------------------------------------
+[debug] [2023-10-15T20:47:01.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --project food-delivery-react
+[debug] [2023-10-15T20:47:01.517Z] CLI Version:   12.7.0
+[debug] [2023-10-15T20:47:01.517Z] Platform:      win32
+[debug] [2023-10-15T20:47:01.517Z] Node Version:  v18.18.0
+[debug] [2023-10-15T20:47:01.518Z] Time:          Sun Oct 15 2023 23:47:01 GMT+0300 (East Africa Time)
+[debug] [2023-10-15T20:47:01.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-15T20:47:01.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-15T20:47:01.587Z] > authorizing via signed-in user (mburu1085@gmail.com)
+[debug] [2023-10-15T20:47:01.587Z] [iam] checking project food-delivery-react for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-15T20:47:01.590Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-react:testIamPermissions [none]
+[debug] [2023-10-15T20:47:01.590Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-react:testIamPermissions x-goog-quota-user=projects/food-delivery-react
+[debug] [2023-10-15T20:47:01.591Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-react:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-15T20:47:02.986Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-react:testIamPermissions 200
+[debug] [2023-10-15T20:47:02.986Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-react:testIamPermissions {}
+[debug] [2023-10-15T20:47:02.986Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project food-delivery-react:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-10-15T20:47:02.987Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-react [none]
+[debug] [2023-10-15T20:47:03.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-react 403
+[debug] [2023-10-15T20:47:03.734Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-15T20:47:03.735Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-15T20:47:04.212Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project food-delivery-react. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-15T20:51:01.927Z] ----------------------------------------------------------------------
+[debug] [2023-10-15T20:51:01.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-15T20:51:01.930Z] CLI Version:   12.7.0
+[debug] [2023-10-15T20:51:01.930Z] Platform:      win32
+[debug] [2023-10-15T20:51:01.930Z] Node Version:  v18.18.0
+[debug] [2023-10-15T20:51:01.932Z] Time:          Sun Oct 15 2023 23:51:01 GMT+0300 (East Africa Time)
+[debug] [2023-10-15T20:51:01.932Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-15T20:51:02.022Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-15T20:51:02.023Z] > authorizing via signed-in user (mburu1085@gmail.com)
+[debug] [2023-10-15T20:51:02.023Z] [iam] checking project food-delivery-37c59 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-15T20:51:02.025Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-37c59:testIamPermissions [none]
+[debug] [2023-10-15T20:51:02.025Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-37c59:testIamPermissions x-goog-quota-user=projects/food-delivery-37c59
+[debug] [2023-10-15T20:51:02.026Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-37c59:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-15T20:51:03.190Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-37c59:testIamPermissions 200
+[debug] [2023-10-15T20:51:03.190Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-delivery-37c59:testIamPermissions {}
+[debug] [2023-10-15T20:51:03.191Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project food-delivery-37c59:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-10-15T20:51:03.191Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 [none]
+[debug] [2023-10-15T20:51:04.021Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 403
+[debug] [2023-10-15T20:51:04.021Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-delivery-37c59 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-15T20:51:04.022Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-15T20:51:04.973Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\bane-did-it\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project food-delivery-37c59. Please make sure the project exists and your account has permission to access it.
